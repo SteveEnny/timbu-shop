@@ -15,7 +15,7 @@
   z-index: 0;
   max-width: 20rem;
 
-  border-radius: 1rem;
+  border-radius: 10px;
 }
 
 .search__input::-webkit-input-placeholder {
