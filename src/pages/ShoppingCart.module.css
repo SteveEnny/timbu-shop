@@ -194,8 +194,6 @@
 .checkout button:disabled {
   cursor: not-allowed;
 }
-.noCart {
-}
 
 @media screen and (max-width: 700px) {
   .cart {

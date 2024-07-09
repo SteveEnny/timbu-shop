@@ -1,6 +1,5 @@
 import { useSelector } from "react-redux";
 import styles from "./CheckoutForm.module.css";
-import PageContainer from "../ui/PageContainer";
 import Order from "../component/Order";
 
 function CheckoutForm() {

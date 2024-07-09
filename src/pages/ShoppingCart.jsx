@@ -1,15 +1,11 @@
 // import styles from "./Footer.module.css";
 import { useDispatch, useSelector } from "react-redux";
-import Footer from "../ui/Footer";
-import Header from "../ui/Header";
-import PageContainer from "../ui/PageContainer";
 import styles from "./ShoppingCart.module.css";
-import { useState } from "react";
 import ShoppingCartList from "../ui/ShoppingCartList";
 import { Link } from "react-router-dom";
-import { addDeliveryPrice, clearCart, removeItem } from "../features/cartSlice";
+import { addDeliveryPrice, clearCart } from "../features/cartSlice";
 
-function ShoppingCart({ cart }) {
+function ShoppingCart() {
   const {
     cart: cartItems,
     totalPrice,

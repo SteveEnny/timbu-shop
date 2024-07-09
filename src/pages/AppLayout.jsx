@@ -1,7 +1,6 @@
 import Footer from "../ui/Footer";
 import Header from "../ui/Header";
-import PageContainer from "../ui/PageContainer";
-import Product from "./Product";
+
 import styles from "./AppLayout.module.css";
 import { Outlet } from "react-router-dom";
 

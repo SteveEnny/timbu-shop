@@ -1,12 +1,9 @@
 import { useDispatch, useSelector } from "react-redux";
 import styles from "./ShoppingCartList.module.css";
 import { decItem, incItem, removeItem } from "../features/cartSlice";
-import { useState } from "react";
 
 function ShoppingCartList({ item }) {
-  const { itemQuantity, cart, totalCartItem } = useSelector(
-    (store) => store.cart
-  );
+  const { cart, totalCartItem } = useSelector((store) => store.cart);
   console.log(cart);
   const dispatch = useDispatch();
   if (totalCartItem === 0) {
