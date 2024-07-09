@@ -1,0 +1,23 @@
+.menu {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  position: relative;
+}
+
+.menu img {
+  width: 20px;
+  height: 20px;
+}
+.menu span {
+  background-color: #007bff;
+  position: absolute;
+  font-size: 8px;
+  left: 10px;
+  bottom: 10px;
+  width: 13px;
+  padding: 2px;
+  border-radius: 50px;
+  text-align: center;
+  color: #fff;
+}

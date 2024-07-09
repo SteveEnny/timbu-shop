@@ -1,0 +1,29 @@
+.appLayout {
+  /* padding-top: 28px; */
+  padding: 20px 50px 0;
+  max-width: 60rem;
+  margin: 0 auto;
+}
+
+.container {
+  /* padding-top: 28px; */
+  padding: 20px 0 0;
+  /* background-color: orangered; */
+  /* max-width: 1; */
+  margin: 0 auto;
+}
+
+.childContainer {
+  margin: 0 auto;
+  max-width: 60rem;
+  padding: 0 40px;
+}
+
+@media (max-width: 800px) {
+  .childContainer {
+    margin: 0 auto;
+    max-width: 60rem;
+    padding: 0 16px;
+    /* border: 1px solid black; */
+  }
+}
